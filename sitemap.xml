@@ -8,6 +8,27 @@
     
   </url>
   
+  <url>
+    <loc>http://bokee.cf/categories/index.html</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bokee.cf/tags/index.html</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bokee.cf/2020/10/10/%E6%B5%8B%E8%AF%95/</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
 
   <url>
     <loc>http://bokee.cf/</loc>
@@ -35,6 +56,13 @@
   
   <url>
     <loc>http://bokee.cf/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/</loc>
+    <lastmod>2020-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://bokee.cf/categories/uncategorized/</loc>
     <lastmod>2020-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
