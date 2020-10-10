@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://bokee.cf/2020/10/10/hexo-bushu/</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+
+  <url>
+    <loc>http://bokee.cf/</loc>
+    <lastmod>2020-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://bokee.cf/tags/Hexo/</loc>
+    <lastmod>2020-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://bokee.cf/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2020-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>http://bokee.cf/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/</loc>
+    <lastmod>2020-10-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
