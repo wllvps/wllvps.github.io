@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://bokee.cf/posts/9bba794c/</loc>
+    
+    <lastmod>2020-10-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://bokee.cf/posts/f52d3d8e/</loc>
     
     <lastmod>2020-10-14</lastmod>
@@ -54,6 +61,13 @@
   
   <url>
     <loc>http://bokee.cf/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2020-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://bokee.cf/tags/%E7%BD%91%E7%9B%98/</loc>
     <lastmod>2020-10-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
