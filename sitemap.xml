@@ -16,6 +16,13 @@
   </url>
   
   <url>
+    <loc>http://bokee.cf/posts/9daba997/</loc>
+    
+    <lastmod>2020-10-16</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://bokee.cf/posts/39398e04/</loc>
     
     <lastmod>2020-10-15</lastmod>
@@ -112,6 +119,13 @@
   
   <url>
     <loc>http://bokee.cf/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/</loc>
+    <lastmod>2020-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://bokee.cf/categories/uncategorized/</loc>
     <lastmod>2020-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
