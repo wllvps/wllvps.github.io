@@ -1,10 +1,8 @@
-$(function(){
 // 初始化
-var myjs = new xkTool();
+var xiaokang = new xkTool();
 // 背景修改
-myjs.bgPage();
+xiaokang.bgPage();
 // 魔幻圆圈
-myjs.magicCirle([radius, densety, color, clearOffset]);
+xiaokang.magicCirle([radius, densety, color, clearOffset]);
 // 页脚养鱼
-myjs.footFish();
-})
+xiaokang.footFish();
