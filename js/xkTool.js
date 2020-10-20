@@ -475,7 +475,7 @@
       $("#footer-wrap").css({
         position: "absolute",
         "text-align": "center",
-        top: 0,
+        top: -20px,
         right: 0,
         left: 0,
         bottom: 0,
