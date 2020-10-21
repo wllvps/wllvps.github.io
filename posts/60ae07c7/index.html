@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hexo源码自动备份 | Bokee's Blog</title><meta name="keywords" content="Hexo,博客"><meta name="author" content="Bokee"><meta name="copyright" content="Bokee"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="如何备份hexo很友好的提供了一个可以备份的插件hexo-git-backupGithub的项目地址点这里：Github地址 安装插件进入Hexo博客所在文件夹，执行以下命令: 1npm install hexo-git-backup --save 创建Github仓库 在github上新建一个backup的仓库，权限设置为private 创建完成后复制ssh   备注：此处一定要选择SSH方式，">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hexo源码自动备份 | Bokee's Blog</title><meta name="keywords" content="Hexo,博客"><meta name="author" content="Bokee"><meta name="copyright" content="Bokee"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="如何备份hexo很友好的提供了一个可以备份的插件hexo-git-backupGithub的项目地址点这里：Github地址 安装插件进入Hexo博客所在文件夹，执行以下命令: 1npm install hexo-git-backup --save 创建Github仓库 在github上新建一个backup的仓库，权限设置为private 创建完成后复制ssh备注：此处一定要选择SSH方式，如果采">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo源码自动备份">
 <meta property="og:url" content="https://bokee.cf/posts/60ae07c7/index.html">
 <meta property="og:site_name" content="Bokee&#39;s Blog">
-<meta property="og:description" content="如何备份hexo很友好的提供了一个可以备份的插件hexo-git-backupGithub的项目地址点这里：Github地址 安装插件进入Hexo博客所在文件夹，执行以下命令: 1npm install hexo-git-backup --save 创建Github仓库 在github上新建一个backup的仓库，权限设置为private 创建完成后复制ssh   备注：此处一定要选择SSH方式，">
+<meta property="og:description" content="如何备份hexo很友好的提供了一个可以备份的插件hexo-git-backupGithub的项目地址点这里：Github地址 安装插件进入Hexo博客所在文件夹，执行以下命令: 1npm install hexo-git-backup --save 创建Github仓库 在github上新建一个backup的仓库，权限设置为private 创建完成后复制ssh备注：此处一定要选择SSH方式，如果采">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/2020/10/21/70b3b617cea2b449b59238fe373aab97.png">
 <meta property="article:published_time" content="2020-10-21T23:48:37.000Z">
@@ -150,12 +150,9 @@ var saveToLocal = {
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-git-backup --save</span><br></pre></td></tr></table></figure>
 <h1 id="创建Github仓库"><a href="#创建Github仓库" class="headerlink" title="创建Github仓库"></a>创建Github仓库</h1><ul>
 <li>在github上新建一个backup的仓库，权限设置为private<br><img src="https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/2020/10/21/c493c24d6f26733efd617011e39b95c4.png"></li>
-<li>创建完成后复制ssh</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/2020/10/21/6564b22eb1b5c054114163e5eaaa8cb1.png"><br><img src="https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/2020/10/21/f9792a9abe72d748eeaccfc956f45ac6.png"></p>
-<div class="note warning flat"><p>备注：此处一定要选择SSH方式，如果采用Https方式，每次都需要输入密码。</p>
+<li>创建完成后复制ssh<br><img src="https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/2020/10/21/6564b22eb1b5c054114163e5eaaa8cb1.png"><br><img src="https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/2020/10/21/f9792a9abe72d748eeaccfc956f45ac6.png"><div class="note warning flat"><p>备注：此处一定要选择SSH方式，如果采用Https方式，每次都需要输入密码。</p>
 </div>
-<h1 id="本地修改配置文件"><a href="#本地修改配置文件" class="headerlink" title="本地修改配置文件"></a>本地修改配置文件</h1><ul>
+<h1 id="本地修改配置文件"><a href="#本地修改配置文件" class="headerlink" title="本地修改配置文件"></a>本地修改配置文件</h1></li>
 <li>执行以下命令:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add backup git@github.com:xxxxxx&#x2F;xxxxxx.git</span><br></pre></td></tr></table></figure>
 <div class="note warning flat"><p>备注：xxxxx改为自己的。</p>
 </div></li>
