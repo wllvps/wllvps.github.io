@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://bokee.cf/posts/f34d4986/</loc>
+    
+    <lastmod>2020-10-22</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://bokee.cf/posts/60ae07c7/</loc>
     
     <lastmod>2020-10-21</lastmod>
@@ -17,13 +24,6 @@
   
   <url>
     <loc>https://bokee.cf/watch.json</loc>
-    
-    <lastmod>2020-10-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://bokee.cf/posts/f34d4986/</loc>
     
     <lastmod>2020-10-16</lastmod>
     
@@ -95,7 +95,7 @@
 
   <url>
     <loc>https://bokee.cf/</loc>
-    <lastmod>2020-10-21</lastmod>
+    <lastmod>2020-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -103,28 +103,28 @@
   
   <url>
     <loc>https://bokee.cf/tags/Hexo/</loc>
-    <lastmod>2020-10-21</lastmod>
+    <lastmod>2020-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://bokee.cf/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2020-10-21</lastmod>
+    <lastmod>2020-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://bokee.cf/tags/Linux/</loc>
-    <lastmod>2020-10-21</lastmod>
+    <lastmod>2020-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://bokee.cf/tags/%E7%BD%91%E7%9B%98/</loc>
-    <lastmod>2020-10-21</lastmod>
+    <lastmod>2020-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -133,7 +133,7 @@
   
   <url>
     <loc>https://bokee.cf/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/</loc>
-    <lastmod>2020-10-21</lastmod>
+    <lastmod>2020-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
