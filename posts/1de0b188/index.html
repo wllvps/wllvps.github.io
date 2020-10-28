@@ -178,8 +178,10 @@ var saveToLocal = {
 <li>查看是否正确<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">date -R</span><br></pre></td></tr></table></figure></li>
 <li>设置免费的 DNS64+NAT64 服务<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo -e &quot;nameserver 2001:67c:2b0::4 \nnameserver 2001:67c:2b0::6&quot; &gt; &#x2F;etc&#x2F;resolv.conf</span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>设置vps可以访问ipv4</p>
+<p>设置vps可以访问ipv4<br><code>此地址由网友提供，德国的DNS64+NAT64，说是速度更快。与上边的任选其一。</code></p>
 </blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo -e &quot;nameserver 2a09:11c0:f1:bbf0::70&quot; &gt; &#x2F;etc&#x2F;resolv.conf</span><br></pre></td></tr></table></figure>
+
 </li>
 </ul>
 <p>Centos需要额外设置</p>
