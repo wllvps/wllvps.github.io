@@ -3064,19 +3064,14 @@ blockquote footer cite:before {
   width: 100%;
 }
 #page-header #site-title,
-#page-header #site-subtitle,
-#page-header #scroll-down .scroll-down-effects {
-  text-align: center;
-  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.15);
-  line-height: 1.5;
-}
-#page-header #site-title {
+#page-header #site-subtitle {
   margin: 0;
   color: var(--white);
   font-size: 1.85em;
 }
 @media screen and (min-width: 768px) {
-  #page-header #site-title {
+  #page-header #site-title,
+  #page-header #site-subtitle {
     font-size: 2.85em;
   }
 }
