@@ -130,6 +130,13 @@
   </url>
   
   <url>
+    <loc>https://bokee.cf/tags/Butterfly/</loc>
+    <lastmod>2020-11-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://bokee.cf/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2020-11-06</lastmod>
     <changefreq>daily</changefreq>
@@ -152,13 +159,6 @@
   
   <url>
     <loc>https://bokee.cf/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/</loc>
-    <lastmod>2020-11-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://bokee.cf/tags/Butterfly/</loc>
     <lastmod>2020-11-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
