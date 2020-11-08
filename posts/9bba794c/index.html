@@ -1,0 +1,210 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>免费搭建无限容量个人网盘 | Bokee</title><meta name="keywords" content="网盘"><meta name="author" content="Bokee"><meta name="copyright" content="Bokee"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="简介虽然现在有很多网盘可以让大家使用，但却也有各种限制，比如数字盘收费高，某度盘下载慢等等，所以我们自己动手搭建一个免费的无限容量的个人网盘，虽然免费的空间也不限制，但为了长久的使用大家还是要珍惜，不要乱用，尽量别上传超大量文件！最后还要特别说明一下数据无价，保存到网盘的数据没有保障，慎重！ 免费vps网站这个网站主要是用来搭建个人的博客，我们利用这个免费的平台来搭建个人网盘，和这个虚拟机平台本来">
+<meta property="og:type" content="article">
+<meta property="og:title" content="免费搭建无限容量个人网盘">
+<meta property="og:url" content="https://bokee.cf/posts/9bba794c/index.html">
+<meta property="og:site_name" content="Bokee">
+<meta property="og:description" content="简介虽然现在有很多网盘可以让大家使用，但却也有各种限制，比如数字盘收费高，某度盘下载慢等等，所以我们自己动手搭建一个免费的无限容量的个人网盘，虽然免费的空间也不限制，但为了长久的使用大家还是要珍惜，不要乱用，尽量别上传超大量文件！最后还要特别说明一下数据无价，保存到网盘的数据没有保障，慎重！ 免费vps网站这个网站主要是用来搭建个人的博客，我们利用这个免费的平台来搭建个人网盘，和这个虚拟机平台本来">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1602652712881&di=64637cddd4222967055f7fb4fe4a43f6&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fwallpaper%2F1309%2F05%2Fc4%2F25279801_1378348357336.jpg">
+<meta property="article:published_time" content="2020-10-22T11:42:45.000Z">
+<meta property="article:modified_time" content="2020-10-22T11:42:45.000Z">
+<meta property="article:author" content="Bokee">
+<meta property="article:tag" content="网盘">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1602652712881&di=64637cddd4222967055f7fb4fe4a43f6&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fwallpaper%2F1309%2F05%2Fc4%2F25279801_1378348357336.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://bokee.cf/posts/9bba794c/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  hexoversion: '5.2.0',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  ClickShowText: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+};
+
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+  },
+
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
+
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: true,
+  postUpdate: '2020-10-22 19:42:45'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(function () {
+  window.activateDarkMode = function () {
+    document.documentElement.setAttribute('data-theme', 'dark')
+    if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+    }
+  }
+  window.activateLightMode = function () {
+    document.documentElement.setAttribute('data-theme', 'light')
+    if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+    }
+  }
+
+  const autoChangeMode = 'false'
+  const t = saveToLocal.get('theme')
+  if (autoChangeMode === '1') {
+    const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+    const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+    const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+    if (t === undefined) {
+      if (isLightMode) activateLightMode()
+      else if (isDarkMode) activateDarkMode()
+      else if (isNotSpecified || hasNoSupport) {
+        const now = new Date()
+        const hour = now.getHours()
+        const isNight = hour <= 6 || hour >= 18
+        isNight ? activateDarkMode() : activateLightMode()
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+        if (saveToLocal.get('theme') === undefined) {
+          e.matches ? activateDarkMode() : activateLightMode()
+        }
+      })
+    } else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else if (autoChangeMode === '2') {
+    const now = new Date()
+    const hour = now.getHours()
+    const isNight = hour <= 6 || hour >= 18
+    if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+    else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else {
+    if (t === 'dark') activateDarkMode()
+    else if (t === 'light') activateLightMode()
+  }
+})()</script><link rel="stylesheet" href="/css/index-1.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@latest/butterfly/css/flink.min.css"><link rel="stylesheet" href="/css/bg.css"><meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="Bokee" type="application/atom+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/null" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">11</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">7</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">1</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://img.plushine.cn"><i class="fa-fw fas fa-heart"></i><span> 图床</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://bokee.avosapps.us"><i class="fa-fw fas fa-paper-plane"></i><span> 评论</span></a></div></div></div></div><div id="body-wrap"><div id="web_bg"></div><div id="sidebar"><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AE%80%E4%BB%8B"><span class="toc-number">1.</span> <span class="toc-text">简介</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%8D%E8%B4%B9vps%E7%BD%91%E7%AB%99"><span class="toc-number">2.</span> <span class="toc-text">免费vps网站</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B3%A8%E5%86%8C%E5%AE%8C%E6%88%90%E5%90%8E%E6%96%B0%E5%BB%BA%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D%E5%92%8C%E8%99%9A%E6%8B%9F%E6%9C%BA"><span class="toc-number">2.1.</span> <span class="toc-text">注册完成后新建免费域名和虚拟机</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9B%E5%85%A5%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E5%AE%89%E8%A3%85worpress"><span class="toc-number">2.2.</span> <span class="toc-text">进入后台管理安装worpress</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#wordpress%E5%AE%89%E8%A3%85%E4%BD%8D%E7%BD%AE"><span class="toc-number">2.3.</span> <span class="toc-text">wordpress安装位置</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD"><span class="toc-number">3.</span> <span class="toc-text">软件下载</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%8A%E4%BC%A0%E8%BD%AF%E4%BB%B6"><span class="toc-number">4.</span> <span class="toc-text">上传软件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8"><span class="toc-number">5.</span> <span class="toc-text">软件使用</span></a></li></ol></div></div></div><header class="post-bg" id="page-header" style="background-image: url(https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1602652712881&amp;di=64637cddd4222967055f7fb4fe4a43f6&amp;imgtype=0&amp;src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fwallpaper%2F1309%2F05%2Fc4%2F25279801_1378348357336.jpg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Bokee</a></span><span id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://img.plushine.cn"><i class="fa-fw fas fa-heart"></i><span> 图床</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://bokee.avosapps.us"><i class="fa-fw fas fa-paper-plane"></i><span> 评论</span></a></div></div><span class="close" id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">免费搭建无限容量个人网盘</div></div><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-10-22T11:42:45.000Z" title="发表于 2020-10-22 19:42:45">2020-10-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2020-10-22T11:42:45.000Z" title="更新于 2020-10-22 19:42:45">2020-10-22</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">技术文档</a></span></div><div class="meta-secondline"> <span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>虽然现在有很多网盘可以让大家使用，但却也有各种限制，比如数字盘收费高，某度盘下载慢等等，所以我们自己动手搭建一个免费的无限容量的个人网盘，虽然免费的空间也不限制，但为了长久的使用大家还是要珍惜，不要乱用，尽量别上传超大量文件！最后还要特别说明一下数据无价，<strong>保存到网盘的数据没有保障，慎重</strong>！</p>
+<h1 id="免费vps网站"><a href="#免费vps网站" class="headerlink" title="免费vps网站"></a>免费vps网站</h1><p>这个网站主要是用来搭建个人的博客，我们利用这个免费的平台来搭建个人网盘，和这个虚拟机平台本来的作用是不一样的，所以在文章开始就强调数据的无价，因为有一定的几率因为你上传超量超大文件导致数据异常！</p>
+<blockquote>
+<p>网站地址：<a target="_blank" rel="noopener" href="https://profreehost.com/">https://profreehost.com/</a></p>
+</blockquote>
+<h2 id="注册完成后新建免费域名和虚拟机"><a href="#注册完成后新建免费域名和虚拟机" class="headerlink" title="注册完成后新建免费域名和虚拟机"></a>注册完成后新建免费域名和虚拟机</h2><p><img src="https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/2020/10/14/f381f384125405e463510f138bd3271d.png"></p>
+<h2 id="进入后台管理安装worpress"><a href="#进入后台管理安装worpress" class="headerlink" title="进入后台管理安装worpress"></a>进入后台管理安装worpress</h2><p><img src="https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/2020/10/14/c03c915fbbb0173bea76577045991ee8.png"></p>
+<h2 id="wordpress安装位置"><a href="#wordpress安装位置" class="headerlink" title="wordpress安装位置"></a>wordpress安装位置</h2><p><img src="https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/2020/10/14/9146ac7c6852fba9463ef79e837c33ce.png"></p>
+<h1 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h1><p><a target="_blank" rel="noopener" href="https://wwe.lanzous.com/iOnmShew7kf">点击此处下载</a></p>
+<h1 id="上传软件"><a href="#上传软件" class="headerlink" title="上传软件"></a>上传软件</h1><p>在后台管理界面点击online file manger，上传解压好的Vfm文件到htdocs文件中<br><img src="https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/2020/10/14/e045643b1d64f83f46218a22ed4767f0.png"></p>
+<h1 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h1><p>文件上传后就可以用你申请的免费域名来访问个人网盘了。第一次登陆的时候需要用户名密码</p>
+<blockquote>
+<p>初始用户名：admin<br>初始密码：password</p>
+</blockquote>
+<p><strong>备注：登陆以后可以点击右上角的小🇺🇳来更改语言。</strong></p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Bokee</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://bokee.cf/posts/9bba794c/">https://bokee.cf/posts/9bba794c/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://bokee.cf" target="_blank">Bokee</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%BD%91%E7%9B%98/">网盘</a></div><div class="post_share"><div class="social-share" data-image="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1602652712881&amp;di=64637cddd4222967055f7fb4fe4a43f6&amp;imgtype=0&amp;src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fwallpaper%2F1309%2F05%2Fc4%2F25279801_1378348357336.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/b6a0e0e6/"><img class="prev-cover" src="https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/2020/10/27/c5cfdf9b73054d2c6ba2a5a21f55ebd3.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">宝塔面板（破解）专业版安装</div></div></a></div><div class="next-post pull-right"><a href="/posts/f34d4986/"><img class="next-cover" src="https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/2020/10/16/64d724aaf31adf852a82b628bf419c10.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Liunx目录树</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></article></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 By Bokee</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><div class="js-pjax"><script src="https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js"></script><script>function loadValine () {
+  function initValine () {
+    let initData = {
+      el: '#vcomment',
+      appId: 'n2Uc24KIj1xcSuUuwt7LqUzp-MdYXbMMI',
+      appKey: 'Kntmyyz38bJvDWqwiz4AcJbO',
+      master: '0842094af76e39e0f2756cf03a7d2a1f'.split(','),
+      friends: 'd61d6a3bba0f74897db827b58fb140f3.split(',')',
+      tagMeta: '博主,小伙伴,访客.split(',')',
+      placeholder: '请留下你的小脚印~~~',
+      avatar: 'monsterid',
+      meta: 'nick,mail,link'.split(','),
+      pageSize: '8',
+      lang: 'zh-CN',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: false,
+      path: window.location.pathname,
+    }
+
+    if (true) { 
+      initData.requiredFields= ('nick,mail'.split(','))
+    }
+    
+    if (false) {
+      const otherData = false
+      initData = Object.assign({}, initData, otherData)
+    }
+    
+    const valine = new Valine(initData)
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else $.getScript('https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js', initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.querySelector('#vcomment'),loadValine)
+  else setTimeout(() => loadValine(), 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/js/mouse_snow.min.js"></script><script src="/js/history.js"></script><script src="/js/historyroll.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script></div></body></html>
